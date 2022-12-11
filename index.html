@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zalik 1</title>
+  </head>
+  <body>
+    <script>
+      let mass = [];
+      let mass1 = [];
+
+      function Random() {
+        let $n1 = Math.round(Math.random() * -42);
+        let $n2 = Math.round(Math.random() * 50);
+        return ($number = $n1 + $n2);
+      }
+      console.log(Random());
+      for (i = 0; i < 10; i++) {
+        mass[i] = Random();
+        mass.push[i];
+      }
+      console.log(mass);
+
+      function isPositive(elem) {
+        if (elem > 0) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+
+      for (i = 0; i <= mass.length; i++) {
+        if (isPositive(mass[i])) {
+          mass1.push(mass[i]);
+        }
+      }
+
+      console.log(mass1);
+    </script>
+  </body>
+</html>
